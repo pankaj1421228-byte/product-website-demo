@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veloura | Luxury Collection</title>
+    <meta
+      name="description"
+      content="Luxury essentials for modern living. Discover handcrafted products designed to elevate everyday moments."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">V</span>
+          <span>Veloura</span>
+        </div>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#collection">Collection</a>
+          <a href="#story">Story</a>
+          <a href="#craft">Craft</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="cart-button" aria-label="Open cart">
+          Cart <span id="cart-count">0</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Curated for refined living</p>
+            <h1>Luxury essentials that feel personal.</h1>
+            <p class="subtitle">
+              Discover modern heirlooms crafted with premium materials, timeless design,
+              and a distinctly elevated presence.
+            </p>
+            <div class="hero-actions">
+              <a class="primary-btn" href="#collection">Shop Collection</a>
+              <a class="secondary-btn" href="#story">Our Story</a>
+            </div>
+            <ul class="hero-points" aria-label="Brand highlights">
+              <li>Handcrafted details</li>
+              <li>Premium materials</li>
+              <li>Worldwide shipping</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Luxury product showcase">
+            <div class="product-showcase">
+              <div class="card card-large">
+                <div class="product-badge">Bestseller</div>
+                <div class="mini-tag">Aster Gold</div>
+                <img
+                  src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=900&q=80"
+                  alt="Luxury watch"
+                />
+                <div class="showcase-details">
+                  <span>Velora X1</span>
+                  <strong>$420</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured-strip">
+        <div class="container strip-inner">
+          <span>Limited Edition</span>
+          <span>French Leather</span>
+          <span>Gold Accents</span>
+          <span>Artisan Finishing</span>
+        </div>
+      </section>
+
+      <section id="collection" class="collection">
+        <div class="container section-header">
+          <p class="eyebrow">The collection</p>
+          <h2>Two signature pieces, one elevated lifestyle.</h2>
+        </div>
+
+        <div class="container product-grid">
+          <article class="product-card" data-name="Velora X1 Watch" data-price="420">
+            <div class="product-image-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=900&q=80"
+                alt="Velora X1 Watch"
+              />
+            </div>
+            <div class="product-info">
+              <div class="info-row">
+                <h3>Velora X1 Watch</h3>
+                <span class="price">$420</span>
+              </div>
+              <p>Swiss movement, brushed gold case, and a refined silhouette built for everyday elegance.</p>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-name="Aurelia Silk Scarf" data-price="180">
+            <div class="product-image-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80"
+                alt="Aurelia Silk Scarf"
+              />
+            </div>
+            <div class="product-info">
+              <div class="info-row">
+                <h3>Aurelia Silk Scarf</h3>
+                <span class="price">$180</span>
+              </div>
+              <p>Lightweight satin weave in a rich champagne tone, designed to move beautifully with you.</p>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="story" class="story">
+        <div class="container story-inner">
+          <div class="story-copy">
+            <p class="eyebrow">Our philosophy</p>
+            <h2>Luxury shouldn’t be loud — it should feel timeless.</h2>
+            <p>
+              Every Veloura piece is created with a quiet sense of confidence: elegant lines,
+              thoughtful craftsmanship, and materials chosen to age beautifully over time.
+            </p>
+          </div>
+          <div class="story-stats">
+            <div>
+              <strong>12+</strong>
+              <span>Years of design</span>
+            </div>
+            <div>
+              <strong>4.9/5</strong>
+              <span>Client rating</span>
+            </div>
+            <div>
+              <strong>24h</strong>
+              <span>Dispatch time</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="craft" class="craft">
+        <div class="container craft-grid">
+          <div class="craft-card">
+            <p class="eyebrow">Craft</p>
+            <h3>Meticulously made</h3>
+            <p>From sourcing to finishing, every detail is considered to create pieces that last beautifully.</p>
+          </div>
+          <div class="craft-card">
+            <p class="eyebrow">Materials</p>
+            <h3>Only the finest</h3>
+            <p>Italian leather, pure silk, and brushed metal finishes selected for texture and elegance.</p>
+          </div>
+          <div class="craft-card">
+            <p class="eyebrow">Experience</p>
+            <h3>Personal service</h3>
+            <p>Style guidance, premium packaging, and delivery that feels as intimate as the purchase itself.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer">
+      <div class="container footer-inner">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark">V</span>
+            <span>Veloura</span>
+          </div>
+        </div>
+        <p>Crafted for modern luxury.</p>
+        <a href="mailto:hello@veloura.com">hello@veloura.com</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
